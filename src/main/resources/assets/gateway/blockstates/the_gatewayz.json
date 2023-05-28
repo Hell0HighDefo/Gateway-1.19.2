@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "gateway:block/the_gateway_ns"
+    },
+    "axis=z": {
+      "model": "gateway:block/the_gateway_ew"
+    }
+  }
+}

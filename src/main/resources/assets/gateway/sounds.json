@@ -1,0 +1,8 @@
+{
+  "gateway_ambience": {
+    "subtitle": "subtitles.gateway.gateway_ambience",
+    "sounds": [
+      "gateway:gateway_ambience"
+    ]
+  }
+}
