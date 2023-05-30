@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "gateway",
-	"version": "${version}",
-	"name": "The Gateway",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"version": "0.0.2",
+	"name": "Gateway",
+	"description": "The entry point for OrangechinSMP.",
 	"authors": [
 		"Hell0HD"
 	],
