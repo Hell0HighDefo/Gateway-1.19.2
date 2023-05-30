@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "gateway",
-	"version": "0.0.2",
+	"version": "${version}",
 	"name": "Gateway",
 	"description": "The entry point for OrangechinSMP.",
 	"authors": [
