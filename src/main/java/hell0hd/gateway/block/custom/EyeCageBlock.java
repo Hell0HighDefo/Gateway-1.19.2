@@ -24,7 +24,7 @@ public class EyeCageBlock extends Block {
     protected static final VoxelShape Z_SHAPE = Block.createCuboidShape(4.5, 0.0, 4.5, 11.5, 7.0, 11.5);
     public EyeCageBlock(Settings settings) {
         super(settings);
-        this.setDefaultState((BlockState)((BlockState)this.stateManager.getDefaultState()).with(AXIS, Direction.Axis.Z));
+        this.setDefaultState((BlockState)((BlockState)this.stateManager.getDefaultState()).with(AXIS, Direction.Axis.X));
     }
 
     @Override
