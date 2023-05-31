@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
-      "model": "gateway:block/eye_cage"
+    "axis=x": {
+      "model": "gateway:block/the_gateway_ns"
+    },
+    "axis=z": {
+      "model": "gateway:block/the_gateway_ew"
     }
   }
 }

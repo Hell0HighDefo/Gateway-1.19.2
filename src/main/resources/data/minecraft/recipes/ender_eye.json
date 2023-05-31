@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bedrock"
+    },
+    {
+      "item": "minecraft:command_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ender_eye"
+  }
+}
