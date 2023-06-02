@@ -25,13 +25,16 @@ public class ModBlocks {
             new TheGatewayBlockZ(AbstractBlock.Settings.of(Material.PORTAL).noCollision().resistance(-1.0f).ticksRandomly().strength(50.0f, 1200.0f).sounds(BlockSoundGroup.GLASS).luminance(state -> 11).nonOpaque()), ItemGroup.MISC);
 
     public static final Block REINFORCED_STONE = registerBlock("reinforced_stone",
-            new Block(FabricBlockSettings.of(STONE).resistance(-1.0f).strength(55.0f, 1200.0f)), ItemGroup.BUILDING_BLOCKS);
+            new PillarBlock(FabricBlockSettings.of(STONE).resistance(-1.0f).strength(55.0f, 1200.0f)), ItemGroup.BUILDING_BLOCKS);
 
     public static final Block EYE_CAGE = registerBlock("eye_cage",
             new EyeCageBlock(FabricBlockSettings.of(GLASS).sounds(BlockSoundGroup.GLASS).strength(0.3f, 0f)), ItemGroup.MISC);
 
     public static final Block STONE_PILLAR = registerBlock("stone_pillar",
-    new Block(FabricBlockSettings.of(STONE).requiresTool().strength(1.5f, 6.0f)), ItemGroup.BUILDING_BLOCKS);
+    new PillarBlock(FabricBlockSettings.of(STONE).requiresTool().strength(1.5f, 6.0f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block POLISHED_STONE = registerBlock("polished_stone",
+            new Block(FabricBlockSettings.of(STONE).requiresTool().strength(1.5f, 6.0f)), ItemGroup.BUILDING_BLOCKS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
