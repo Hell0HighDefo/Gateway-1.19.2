@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "gateway:stone_pillar"
+    "gateway:stone_pillar",
+    "gateway:polished_stone",
+    "gateway:polished_stone_slab",
+    "gateway:polished_stone_stairs"
   ]
 }
