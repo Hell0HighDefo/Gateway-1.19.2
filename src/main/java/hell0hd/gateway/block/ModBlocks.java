@@ -36,6 +36,15 @@ public class ModBlocks {
     public static final Block POLISHED_STONE = registerBlock("polished_stone",
             new Block(FabricBlockSettings.of(STONE).requiresTool().strength(1.5f, 6.0f)), ItemGroup.BUILDING_BLOCKS);
 
+    public static final Block POLISHED_STONE_STAIRS = registerBlock("polished_stone_stairs",
+            new StairsBlock(POLISHED_STONE.getDefaultState(), AbstractBlock.Settings.copy(POLISHED_STONE).strength(2.0f, 6.0f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block POLISHED_STONE_WALL = registerBlock("polished_stone_wall",
+            new WallBlock(AbstractBlock.Settings.copy(POLISHED_STONE).strength(2.0f, 6.0f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block POLISHED_STONE_SLAB = registerBlock("polished_stone_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(POLISHED_STONE).strength(2.0f, 6.0f)), ItemGroup.BUILDING_BLOCKS);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
