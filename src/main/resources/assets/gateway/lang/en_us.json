@@ -4,5 +4,9 @@
   "block.gateway.eye_cage": "Eye Cage",
   "block.gateway.reinforced_stone": "Reinforced Stone",
   "block.gateway.stone_pillar": "Stone Pillar",
+  "block.gateway.polished_stone": "Polished Stone",
+  "block.gateway.polished_stone_stairs": "Polished Stone Stairs",
+  "block.gateway.polished_stone_slab": "Polished Stone Slab",
+  "block.gateway.polished_stone_wall": "Polished Stone Wall",
   "subtitles.gateway.gateway_ambience": "Gateway whooshes"
 }
